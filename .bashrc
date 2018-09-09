@@ -76,7 +76,6 @@ if ${use_color} ; then
 	fi
 
 	alias ls='ls --color=auto'
-	alias ll='ls -lAh'
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
@@ -91,7 +90,12 @@ fi
 
 unset use_color safe_term match_lhs sh
 
+# Elinks aliases
+	alias search='elinks duckduckgo.org'
+	alias wiki='elinks wiki.archlinux.org'
+
 alias set-i3="vim ~/.config/i3/config"	# alias to i3 conf file
+alias ll='ls -lAh'
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
