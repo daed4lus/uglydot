@@ -1,0 +1,1 @@
+/home/mogwai/.zprofile
