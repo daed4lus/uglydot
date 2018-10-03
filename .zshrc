@@ -71,18 +71,15 @@ autoload -U compinit colors zcalc
 compinit -d
 colors
 
-autoload -Uz promptinit 
-promptinit
-
 # enable substitution for prompt
 setopt prompt_subst
 
 # Prompt (on left side) similar to default bash prompt, or redhat zsh prompt with colors
- PROMPT="%(!.%{$fg[red]%}[%n@%m %1~]%{$reset_color%}# .%{$fg[green]%}[%n@%m %1~]%{$reset_color%}$ "
+PROMPT="%(!.%{$fg[red]%}[%n@%m %1~]%{$reset_color%}# .%{$fg[green]%}[%n@%m %1~]%{$reset_color%}$ )" 
 # Maia prompt
 #PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[red]%})>%{$reset_color%}%b " # Print some system information when the shell is first started
 # Print a greeting message when shell is started
-#echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs)
+echo $USER@$HOST  $(uname -srm) 
 ## Prompt on right side:
 #  - shows status of git when in git repository (code adapted from https://techanic.net/2012/12/30/my_git_prompt_for_zsh.html)
 #  - shows exit status of previous command (if previous command finished with an error)
@@ -233,6 +230,6 @@ esac
 #        fi
 #fi
 
-if [[ ! ${DISPLAY} && ${XDG_VTNR} == 1 ]]; then
-	exec startx
-fi                         
+#if [[ ! ${DISPLAY} && ${XDG_VTNR} == 1 ]]; then
+#	exec startx
+#fi                         
