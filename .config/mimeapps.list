@@ -1,0 +1,8 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;desktopeditors.desktop;
+
+[Default Applications]
+application/vnd.powdertoy.save=powdertoy-tpt-open.desktop
+x-scheme-handler/ptsave=powdertoy-tpt-ptsave.desktop

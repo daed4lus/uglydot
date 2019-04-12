@@ -1,0 +1,5 @@
+set editor=`echo \$EDITOR`
+
+set imap_user=vmichel@intechinfo.fr
+set imap_pass=Hs9L5dwqK
+set folder=imap[s]://imap

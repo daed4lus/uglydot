@@ -1,0 +1,358 @@
+2018-11-05 21:17:23	--	irc: connecting to server orwell.freenode.net/6667...
+2018-11-05 21:17:23	--	irc: connected to orwell.freenode.net/6667 (185.30.166.37)
+2018-11-05 21:17:23	--	orwell.freenode.net: *** Looking up your hostname...
+2018-11-05 21:17:23	--	orwell.freenode.net: *** Checking Ident
+2018-11-05 21:17:23	--	orwell.freenode.net: *** No Ident response
+2018-11-05 21:17:23	--	orwell.freenode.net: *** Found your hostname
+2018-11-05 21:17:23	--	Welcome to the freenode Internet Relay Chat Network mogwai
+2018-11-05 21:17:23	--	Your host is orwell.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.7
+2018-11-05 21:17:23	--	This server was created Sun Sep 16 2018 at 18:22:50 UTC
+2018-11-05 21:17:23	--	orwell.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-05 21:17:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-05 21:17:23	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-11-05 21:17:23	--	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+2018-11-05 21:17:23	--	There are 117 users and 86480 invisible on 32 servers
+2018-11-05 21:17:23	--	32 :IRC Operators online
+2018-11-05 21:17:23	--	48033 :channels formed
+2018-11-05 21:17:23	--	I have 1496 clients and 1 servers
+2018-11-05 21:17:23	--	1496 4499 :Current local users 1496, max 4499
+2018-11-05 21:17:23	--	86597 94264 :Current global users 86597, max 94264
+2018-11-05 21:17:23	--	Highest connection count: 4500 (4499 clients) (78135 connections received)
+2018-11-05 21:17:23	--	- orwell.freenode.net Message of the Day -
+2018-11-05 21:17:23	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2018-11-05 21:17:23	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2018-11-05 21:17:23	--	- this server!
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2018-11-05 21:17:23	--	- moved him to England when he was one year old, and it
+2018-11-05 21:17:23	--	- was in England where he was educated and spent most of
+2018-11-05 21:17:23	--	- his life.  Orwell is perhaps best known for his novels
+2018-11-05 21:17:23	--	- Nineteen Eighty-Four and Animal Farm.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Welcome to freenode - supporting the free and open source
+2018-11-05 21:17:23	--	- software communities since 1998.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	-   __                               _          _  _   _     _____     _______
+2018-11-05 21:17:23	--	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2018-11-05 21:17:23	--	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2018-11-05 21:17:23	--	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2018-11-05 21:17:23	--	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- November 3rd-4th, Bristol, United Kingdom - see https://freenode.live/
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- freenode #live is a community-focused live event designed to build and
+2018-11-05 21:17:23	--	- strengthen relationships between Free and Open Source Software (FOSS)
+2018-11-05 21:17:23	--	- developers and users. freenode live seeks to raise awareness of and
+2018-11-05 21:17:23	--	- promote FOSS alternatives to proprietary software.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Facilitating face-to-face interaction, creative workshops, talks and think
+2018-11-05 21:17:23	--	- tanks, freenode #live will bring developers and users together in a nurturing
+2018-11-05 21:17:23	--	- and dynamic environment stimulating the free exchange of ideas and
+2018-11-05 21:17:23	--	- information while fostering cross-project collaboration and dialogue for
+2018-11-05 21:17:23	--	- innovation.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Please join us in the #live channel on the freenode network, or send us an
+2018-11-05 21:17:23	--	- e-mail (team@freenode.live) if you have any questions and would like to
+2018-11-05 21:17:23	--	- get involved! Further information will also be posted on the freenode.net
+2018-11-05 21:17:23	--	- website.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- See https://freenode.live/ for more information and to get your tickets!
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- We hope to see you there!
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- By connecting to freenode you indicate that you have read and
+2018-11-05 21:17:23	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- In the event that you observe behaviour that contravenes our policies,
+2018-11-05 21:17:23	--	- please notify a volunteer staff member via private message, or send us an
+2018-11-05 21:17:23	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-11-05 21:17:23	--	- situation within a reasonable period of time, and we may request further
+2018-11-05 21:17:23	--	- information or, as appropriate, involve other parties such as channel operators
+2018-11-05 21:17:23	--	- Group Contacts representing an on-topic group.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- freenode runs an open proxy scanner.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- If you are looking for assistance, you will be able to find a list of
+2018-11-05 21:17:23	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-11-05 21:17:23	--	- message any of us at any time. Please note that freenode predominantly
+2018-11-05 21:17:23	--	- provides assistance via private message, and while we have a network
+2018-11-05 21:17:23	--	- channel the primary venue for support requests is via private message to
+2018-11-05 21:17:23	--	- a member of the volunteer staff team.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-11-05 21:17:23	--	- the project, or the communities that we host. The majority of such notices
+2018-11-05 21:17:23	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-11-05 21:17:23	--	- do not miss them. Important messages relating to the freenode project, including
+2018-11-05 21:17:23	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-11-05 21:17:23	--	- global notices.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Representing an on-topic project? Don't forget to register, more information
+2018-11-05 21:17:23	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- freenode organises an annual conference, and we would like to extend our
+2018-11-05 21:17:23	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-11-05 21:17:23	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-11-05 21:17:23	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-11-05 21:17:23	--	- network going for close to two decades.
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+2018-11-05 21:17:23	--	- Proposals is live at https://freenode.live and open until July 31, 2018. If
+2018-11-05 21:17:23	--	- you are interested in sponsoring this event, please send an e-mail to
+2018-11-05 21:17:23	--	- sponsor@freenode.live
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	- Thank you for using freenode!
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	-
+2018-11-05 21:17:23	--	End of /MOTD command.
+2018-11-05 21:17:23	--	User mode [+Ri] by mogwai
+2018-11-05 21:17:23	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-05 21:17:23	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-11-05 21:17:23	--	CTCP requested by freenode-connect: VERSION
+2018-11-05 21:17:23	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-11-05 21:19:54	--	L'Elfe: Erroneous Nickname
+2018-11-05 21:20:48	--	You are now known as Eol
+2018-11-05 21:20:48	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-05 21:21:24	--	You are now known as Elfe
+2018-11-05 21:21:24	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-05 21:21:39	--	You are now known as mogwai
+2018-11-05 21:21:39	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-05 21:22:06	--	You are now known as daed4lus
+2018-11-05 21:33:18	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2018-11-05 21:33:18	--	irc: disconnecting from server...
+2018-11-05 21:33:18	--	irc: disconnected from server
+2018-11-05 21:33:18	--	irc: reconnecting to server in 10 seconds
+2018-11-05 21:33:28	--	irc: reconnecting to server...
+2018-11-05 21:33:28	--	irc: connecting to server orwell.freenode.net/6667...
+2018-11-05 21:33:28	--	irc: connected to orwell.freenode.net/6667 (185.30.166.37)
+2018-11-05 21:33:28	--	orwell.freenode.net: *** Looking up your hostname...
+2018-11-05 21:33:28	--	orwell.freenode.net: *** Checking Ident
+2018-11-05 21:33:28	--	orwell.freenode.net: *** No Ident response
+2018-11-05 21:33:28	--	orwell.freenode.net: *** Found your hostname
+2018-11-05 21:33:28	--	Welcome to the freenode Internet Relay Chat Network daed4lus
+2018-11-05 21:33:28	--	Your host is orwell.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.7
+2018-11-05 21:33:28	--	This server was created Sun Sep 16 2018 at 18:22:50 UTC
+2018-11-05 21:33:28	--	orwell.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-05 21:33:28	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-05 21:33:28	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-11-05 21:33:28	--	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+2018-11-05 21:33:28	--	There are 117 users and 86386 invisible on 32 servers
+2018-11-05 21:33:28	--	32 :IRC Operators online
+2018-11-05 21:33:28	--	48029 :channels formed
+2018-11-05 21:33:28	--	I have 1496 clients and 1 servers
+2018-11-05 21:33:28	--	1496 4499 :Current local users 1496, max 4499
+2018-11-05 21:33:28	--	86503 94264 :Current global users 86503, max 94264
+2018-11-05 21:33:28	--	Highest connection count: 4500 (4499 clients) (78136 connections received)
+2018-11-05 21:33:28	--	- orwell.freenode.net Message of the Day -
+2018-11-05 21:33:28	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2018-11-05 21:33:28	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2018-11-05 21:33:28	--	- this server!
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2018-11-05 21:33:28	--	- moved him to England when he was one year old, and it
+2018-11-05 21:33:28	--	- was in England where he was educated and spent most of
+2018-11-05 21:33:28	--	- his life.  Orwell is perhaps best known for his novels
+2018-11-05 21:33:28	--	- Nineteen Eighty-Four and Animal Farm.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Welcome to freenode - supporting the free and open source
+2018-11-05 21:33:28	--	- software communities since 1998.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	-   __                               _          _  _   _     _____     _______
+2018-11-05 21:33:28	--	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2018-11-05 21:33:28	--	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2018-11-05 21:33:28	--	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2018-11-05 21:33:28	--	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- November 3rd-4th, Bristol, United Kingdom - see https://freenode.live/
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- freenode #live is a community-focused live event designed to build and
+2018-11-05 21:33:28	--	- strengthen relationships between Free and Open Source Software (FOSS)
+2018-11-05 21:33:28	--	- developers and users. freenode live seeks to raise awareness of and
+2018-11-05 21:33:28	--	- promote FOSS alternatives to proprietary software.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Facilitating face-to-face interaction, creative workshops, talks and think
+2018-11-05 21:33:28	--	- tanks, freenode #live will bring developers and users together in a nurturing
+2018-11-05 21:33:28	--	- and dynamic environment stimulating the free exchange of ideas and
+2018-11-05 21:33:28	--	- information while fostering cross-project collaboration and dialogue for
+2018-11-05 21:33:28	--	- innovation.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Please join us in the #live channel on the freenode network, or send us an
+2018-11-05 21:33:28	--	- e-mail (team@freenode.live) if you have any questions and would like to
+2018-11-05 21:33:28	--	- get involved! Further information will also be posted on the freenode.net
+2018-11-05 21:33:28	--	- website.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- See https://freenode.live/ for more information and to get your tickets!
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- We hope to see you there!
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- By connecting to freenode you indicate that you have read and
+2018-11-05 21:33:28	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- In the event that you observe behaviour that contravenes our policies,
+2018-11-05 21:33:28	--	- please notify a volunteer staff member via private message, or send us an
+2018-11-05 21:33:28	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-11-05 21:33:28	--	- situation within a reasonable period of time, and we may request further
+2018-11-05 21:33:28	--	- information or, as appropriate, involve other parties such as channel operators
+2018-11-05 21:33:28	--	- Group Contacts representing an on-topic group.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- freenode runs an open proxy scanner.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- If you are looking for assistance, you will be able to find a list of
+2018-11-05 21:33:28	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-11-05 21:33:28	--	- message any of us at any time. Please note that freenode predominantly
+2018-11-05 21:33:28	--	- provides assistance via private message, and while we have a network
+2018-11-05 21:33:28	--	- channel the primary venue for support requests is via private message to
+2018-11-05 21:33:28	--	- a member of the volunteer staff team.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-11-05 21:33:28	--	- the project, or the communities that we host. The majority of such notices
+2018-11-05 21:33:28	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-11-05 21:33:28	--	- do not miss them. Important messages relating to the freenode project, including
+2018-11-05 21:33:28	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-11-05 21:33:28	--	- global notices.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Representing an on-topic project? Don't forget to register, more information
+2018-11-05 21:33:28	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- freenode organises an annual conference, and we would like to extend our
+2018-11-05 21:33:28	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-11-05 21:33:28	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-11-05 21:33:28	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-11-05 21:33:28	--	- network going for close to two decades.
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+2018-11-05 21:33:28	--	- Proposals is live at https://freenode.live and open until July 31, 2018. If
+2018-11-05 21:33:28	--	- you are interested in sponsoring this event, please send an e-mail to
+2018-11-05 21:33:28	--	- sponsor@freenode.live
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	- Thank you for using freenode!
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	-
+2018-11-05 21:33:28	--	End of /MOTD command.
+2018-11-05 21:33:28	--	User mode [+Ri] by daed4lus
+2018-11-05 21:33:28	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-11-05 21:33:28	--	CTCP requested by freenode-connect: VERSION
+2018-11-05 21:33:28	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-11-05 21:44:42	--	irc: connecting to server orwell.freenode.net/6667...
+2018-11-05 21:44:42	--	irc: connected to orwell.freenode.net/6667 (185.30.166.37)
+2018-11-05 21:44:42	--	orwell.freenode.net: *** Looking up your hostname...
+2018-11-05 21:44:42	--	orwell.freenode.net: *** Checking Ident
+2018-11-05 21:44:42	--	orwell.freenode.net: *** Found your hostname
+2018-11-05 21:44:42	--	orwell.freenode.net: *** No Ident response
+2018-11-05 21:44:42	--	Welcome to the freenode Internet Relay Chat Network mogwai
+2018-11-05 21:44:42	--	Your host is orwell.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.7
+2018-11-05 21:44:42	--	This server was created Sun Sep 16 2018 at 18:22:50 UTC
+2018-11-05 21:44:42	--	orwell.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-05 21:44:42	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-05 21:44:42	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-11-05 21:44:42	--	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+2018-11-05 21:44:42	--	There are 116 users and 86313 invisible on 32 servers
+2018-11-05 21:44:42	--	32 :IRC Operators online
+2018-11-05 21:44:42	--	48020 :channels formed
+2018-11-05 21:44:42	--	I have 1496 clients and 1 servers
+2018-11-05 21:44:42	--	1496 4499 :Current local users 1496, max 4499
+2018-11-05 21:44:42	--	86429 94264 :Current global users 86429, max 94264
+2018-11-05 21:44:42	--	Highest connection count: 4500 (4499 clients) (78137 connections received)
+2018-11-05 21:44:42	--	- orwell.freenode.net Message of the Day -
+2018-11-05 21:44:42	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2018-11-05 21:44:42	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2018-11-05 21:44:42	--	- this server!
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2018-11-05 21:44:42	--	- moved him to England when he was one year old, and it
+2018-11-05 21:44:42	--	- was in England where he was educated and spent most of
+2018-11-05 21:44:42	--	- his life.  Orwell is perhaps best known for his novels
+2018-11-05 21:44:42	--	- Nineteen Eighty-Four and Animal Farm.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Welcome to freenode - supporting the free and open source
+2018-11-05 21:44:42	--	- software communities since 1998.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	-   __                               _          _  _   _     _____     _______
+2018-11-05 21:44:42	--	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2018-11-05 21:44:42	--	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2018-11-05 21:44:42	--	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2018-11-05 21:44:42	--	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- November 3rd-4th, Bristol, United Kingdom - see https://freenode.live/
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- freenode #live is a community-focused live event designed to build and
+2018-11-05 21:44:42	--	- strengthen relationships between Free and Open Source Software (FOSS)
+2018-11-05 21:44:42	--	- developers and users. freenode live seeks to raise awareness of and
+2018-11-05 21:44:42	--	- promote FOSS alternatives to proprietary software.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Facilitating face-to-face interaction, creative workshops, talks and think
+2018-11-05 21:44:42	--	- tanks, freenode #live will bring developers and users together in a nurturing
+2018-11-05 21:44:42	--	- and dynamic environment stimulating the free exchange of ideas and
+2018-11-05 21:44:42	--	- information while fostering cross-project collaboration and dialogue for
+2018-11-05 21:44:42	--	- innovation.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Please join us in the #live channel on the freenode network, or send us an
+2018-11-05 21:44:42	--	- e-mail (team@freenode.live) if you have any questions and would like to
+2018-11-05 21:44:42	--	- get involved! Further information will also be posted on the freenode.net
+2018-11-05 21:44:42	--	- website.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- See https://freenode.live/ for more information and to get your tickets!
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- We hope to see you there!
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- By connecting to freenode you indicate that you have read and
+2018-11-05 21:44:42	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- In the event that you observe behaviour that contravenes our policies,
+2018-11-05 21:44:42	--	- please notify a volunteer staff member via private message, or send us an
+2018-11-05 21:44:42	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-11-05 21:44:42	--	- situation within a reasonable period of time, and we may request further
+2018-11-05 21:44:42	--	- information or, as appropriate, involve other parties such as channel operators
+2018-11-05 21:44:42	--	- Group Contacts representing an on-topic group.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- freenode runs an open proxy scanner.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- If you are looking for assistance, you will be able to find a list of
+2018-11-05 21:44:42	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-11-05 21:44:42	--	- message any of us at any time. Please note that freenode predominantly
+2018-11-05 21:44:42	--	- provides assistance via private message, and while we have a network
+2018-11-05 21:44:42	--	- channel the primary venue for support requests is via private message to
+2018-11-05 21:44:42	--	- a member of the volunteer staff team.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-11-05 21:44:42	--	- the project, or the communities that we host. The majority of such notices
+2018-11-05 21:44:42	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-11-05 21:44:42	--	- do not miss them. Important messages relating to the freenode project, including
+2018-11-05 21:44:42	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-11-05 21:44:42	--	- global notices.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Representing an on-topic project? Don't forget to register, more information
+2018-11-05 21:44:42	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- freenode organises an annual conference, and we would like to extend our
+2018-11-05 21:44:42	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-11-05 21:44:42	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-11-05 21:44:42	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-11-05 21:44:42	--	- network going for close to two decades.
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+2018-11-05 21:44:42	--	- Proposals is live at https://freenode.live and open until July 31, 2018. If
+2018-11-05 21:44:42	--	- you are interested in sponsoring this event, please send an e-mail to
+2018-11-05 21:44:42	--	- sponsor@freenode.live
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	- Thank you for using freenode!
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	-
+2018-11-05 21:44:42	--	End of /MOTD command.
+2018-11-05 21:44:42	--	User mode [+Ri] by mogwai
+2018-11-05 21:44:42	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-05 21:44:43	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-11-05 21:44:43	--	CTCP requested by freenode-connect: VERSION
+2018-11-05 21:44:43	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-11-05 21:44:51	--	You are now known as daed4lus

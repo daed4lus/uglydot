@@ -1,0 +1,56 @@
+00:00:00.539179 VirtualBox GUI VM Selector Window 6.0.4 r128164 linux.amd64 (Jan 28 2019 15:36:33) release log
+00:00:00.539181 Log opened 2019-02-28T20:15:40.304048000Z
+00:00:00.539182 Build Type: release
+00:00:00.539183 OS Product: Linux
+00:00:00.539184 OS Release: 4.20.12-arch1-1-ARCH
+00:00:00.539185 OS Version: #1 SMP PREEMPT Sat Feb 23 15:11:34 UTC 2019
+00:00:00.539203 DMI Product Name: 20FMS44T00
+00:00:00.539210 DMI Product Version: ThinkPad T460
+00:00:00.539243 Host RAM: 7831MB (7.6GB) total, 7541MB (7.3GB) available
+00:00:00.539246 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.539246 Process ID: 3225
+00:00:00.539247 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.539270 Qt version: 5.12.1
+00:00:00.589313 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.992454 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 640x21 x 640x1059
+00:00:01.007855 Failed to open "/dev/vboxdrv", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:01.007938 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:48.180471 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:48.223788 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:13.006671 GUI: UIMediumEnumerator: Medium with key={{923026da-0c6b-4043-a910-c85385034d4a}} created
+00:01:13.119593 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:15.884676 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:15.911190 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:23.642858 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:23.918472 2D support test succeeded
+00:01:23.990505 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:38.046536 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:14.161930 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:03:32.280984 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:03:32.285328 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:36.284698 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:40.355030 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:03:40.387012 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:50.058353 GUI: UIMediumEnumerator: Medium with key={{f7128fb1-51bb-4205-bad3-a4cfbaa373e0}} created
+00:03:50.155655 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:51.761439 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:03:51.925116 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:04.391512 GUI: UIMediumEnumerator: Medium with key={{3e31b562-66c3-42d1-8df5-8f2ba0f2b637}} created
+00:04:06.973278 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:39.634982 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:25.163613 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:51.073401 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:56.219309 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:07:56.575354 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:24.200266 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:34.942122 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:37.491236 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:08:37.594149 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:46.744134 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:08:46.848837 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:10.092884 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:23.701621 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:32.136424 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:00.016015 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:00.756377 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:05.747642 GUI: UIMediumEnumerator: Medium-enumeration finished!

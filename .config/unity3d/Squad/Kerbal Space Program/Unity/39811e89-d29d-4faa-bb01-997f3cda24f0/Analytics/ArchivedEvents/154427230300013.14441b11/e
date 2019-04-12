@@ -1,0 +1,9 @@
+{"type":"analytics.appRunning.v1","msg":{"ts":1544272303548,"duration":6600,"local_time_offset":-3600000}}
+{"type":"analytics.custom.v1","msg":{"ts":1544272418993,"name":"unity.sceneLoad","custom_params":{"level_name":"loadingBuffer","level_num":1,"total_levels":18}}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1544272419353,"scene_name":"loadingBuffer","scene_index":1,"background_time":4352000,"integrate_time":498601984,"ts_integrate_time":4000,"total_time":1045574976}}
+{"type":"analytics.custom.v1","msg":{"ts":1544272421789,"name":"unity.sceneLoad","custom_params":{"level_name":"spaceCenter","level_num":5,"total_levels":18}}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1544272424147,"scene_name":"spaceCenter","scene_index":5,"background_time":47783000,"integrate_time":2480092928,"ts_integrate_time":2766000,"total_time":2655083008}}
+{"type":"analytics.custom.v1","msg":{"ts":1544272432500,"name":"unity.sceneLoad","custom_params":{"level_name":"trackingStation","level_num":8,"total_levels":18}}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1544272432873,"scene_name":"trackingStation","scene_index":8,"background_time":24181000,"integrate_time":509092992,"ts_integrate_time":373000,"total_time":560838976}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1544272445049,"duration":6742,"local_time_offset":-3600000}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1544272445050}}

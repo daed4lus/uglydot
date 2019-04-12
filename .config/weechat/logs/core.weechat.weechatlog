@@ -1,0 +1,75 @@
+2018-11-05 21:07:06		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-11-05 21:07:06		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-11-05 21:07:06		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-11-05 21:07:06		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-11-05 21:07:06		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:07:12		[core]
+2018-11-05 21:07:12		  away     command  filter   key      plugin   reload   set      version
+2018-11-05 21:07:12		  bar      cursor   help     layout   print    repeat   unset    wait   
+2018-11-05 21:07:12		  buffer   debug    history  mouse    proxy    save     upgrade  window 
+2018-11-05 21:07:12		  color    eval     input    mute     quit     secure   uptime 
+2018-11-05 21:07:12		[fifo]
+2018-11-05 21:07:12		  fifo
+2018-11-05 21:07:12		[relay]
+2018-11-05 21:07:12		  relay
+2018-11-05 21:07:12		[aspell]
+2018-11-05 21:07:12		  aspell
+2018-11-05 21:07:12		[alias]
+2018-11-05 21:07:12		  AAWAY    BEEP     CLOSE    KB       N        T        WC     
+2018-11-05 21:07:12		  alias    BYE      EXIT     LEAVE    Q        UB       WI     
+2018-11-05 21:07:12		  AME      C        IG       M        REDRAW   UMODE    WII    
+2018-11-05 21:07:12		  AMSG     CHAT     J        MSGBUF   SAY      V        WW     
+2018-11-05 21:07:12		  ANICK    CL       K        MUB      SIGNOFF  W      
+2018-11-05 21:07:12		[buflist]
+2018-11-05 21:07:12		  buflist
+2018-11-05 21:07:12		[python]
+2018-11-05 21:07:12		  python
+2018-11-05 21:07:12		[script]
+2018-11-05 21:07:12		  script
+2018-11-05 21:07:12		[irc]
+2018-11-05 21:07:12		  admin       die         lusers      ping        saquit      userhost  
+2018-11-05 21:07:12		  allchan     disconnect  map         pong        server      users     
+2018-11-05 21:07:12		  allpv       halfop      me          query       service     version   
+2018-11-05 21:07:12		  allserv     ignore      mode        quiet       servlist    voice     
+2018-11-05 21:07:12		  ban         info        motd        quote       squery      wallchops 
+2018-11-05 21:07:12		  cap         invite      msg         reconnect   squit       wallops   
+2018-11-05 21:07:12		  connect     ison        names       rehash      stats       who       
+2018-11-05 21:07:12		  ctcp        join        nick        remove      summon      whois     
+2018-11-05 21:07:12		  cycle       kick        notice      restart     time        whowas    
+2018-11-05 21:07:12		  dcc         kickban     notify      sajoin      topic     
+2018-11-05 21:07:12		  dehalfop    kill        op          samode      trace     
+2018-11-05 21:07:12		  deop        links       oper        sanick      unban     
+2018-11-05 21:07:12		  devoice     list        part        sapart      unquiet   
+2018-11-05 21:07:12		[fset]
+2018-11-05 21:07:12		  fset
+2018-11-05 21:07:12		[charset]
+2018-11-05 21:07:12		  charset
+2018-11-05 21:07:12		[xfer]
+2018-11-05 21:07:12		  me  xfer
+2018-11-05 21:07:12		[lua]
+2018-11-05 21:07:12		  lua
+2018-11-05 21:07:12		[perl]
+2018-11-05 21:07:12		  perl
+2018-11-05 21:07:12		[logger]
+2018-11-05 21:07:12		  logger
+2018-11-05 21:07:12		[trigger]
+2018-11-05 21:07:12		  trigger
+2018-11-05 21:07:12		[exec]
+2018-11-05 21:07:12		  exec
+2018-11-05 21:10:15	=!=	Error: option "WEECHAT_HOME" not found
+2018-11-05 21:11:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:13:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:14:18	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-11-05 21:14:18	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-05 21:14:52	=!=	irc: unable to add temporary server "chat.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-11-05 21:14:52	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-05 21:15:48	=!=	irc: unable to add temporary server "orwell.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-11-05 21:15:48	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-05 21:15:55		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:16:03	=!=	irc: unable to add temporary server "orwel.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-11-05 21:16:03	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-05 21:17:17		irc: server freenode added
+2018-11-05 21:42:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:43:15		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:44:37		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-11-05 21:45:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
