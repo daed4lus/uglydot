@@ -33,16 +33,6 @@ colors() {
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
-# Change the window title of X terminals
-case ${TERM} in
-	xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
-		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
-		;;
-	screen*)
-		PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
-		;;
-esac
-
 use_color=true
 
 # Set colorful PS1 only on colorful terminals.
@@ -70,9 +60,9 @@ if ${use_color} ; then
 	fi
 
 	if [[ ${EUID} == 0 ]] ; then
-		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
+		PS1='\a\A \[\e[01;31m\][\h\[\e[01;36m\] \W\[\e[01;31m\]]\[\e[00m\] \n\[\e[01;31m\]\$\[\e[00m\] '
 	else
-		PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
+		PS1='\a\A \[\e[01;32m\][\u@\h\[\e[01;37m\] \W\[\e[01;32m\]]\[\e[00m\] \n\[\e[01;32m\]\$\[\e[00m\] '
 	fi
 
 	alias ls='ls --color=auto'
@@ -91,20 +81,37 @@ fi
 unset use_color safe_term match_lhs sh
 
 # Elinks aliases
-	alias search='elinks duckduckgo.org'
-	alias wiki='elinks wiki.archlinux.org'
+alias search='elinks duckduckgo.org'
+alias wiki='elinks wiki.archlinux.org'
 
-alias set-i3="vim ~/.config/i3/config"	# alias to i3 conf file
-alias ll='ls -lAh'
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+# Unsorted
+alias Sono='ncmpc --host cyberia --port 6600'
+alias weechat='weechat -d ~/.config/weechat'
+alias dd='dd status=progress'						# progress
+alias set-i3="vim ~/.config/i3/config"				# alias to i3 conf file
+alias ll='ls -lah'
 alias np='nano -w PKGBUILD'
 alias more=less
 
+# Settings Aliases
+alias newsboat='newsboat -C ~/.config/newsboat/config'
+alias free='free -m'                      			# show sizes in MB
+alias cp="cp -i"  									# confirm before overwriting something
+alias df='df -h'				                    # human-readable sizes
+
+## Shitty Aliases 
+#
+#alias vmreboot='sleep 5 && ssh root@127.0.0.1 -p 3022'
+#alias vmconnect='ssh root@127.0.0.1 -p 3022' 		# connect to vm in ssh
+alias fabien='man'
+
 xhost +local:root > /dev/null 2>&1
 
-complete -cf sudo
+# Complete sudo command
+complete -caf sudo
+
+# Complete sudo command
+complete -c man which
 
 # Bash won't get SIGWINCH if another process is in the foreground.
 # Enable checkwinsize so that bash will check the terminal size when
@@ -112,12 +119,34 @@ complete -cf sudo
 # http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)
 shopt -s checkwinsize
 
+# Complete Aliases
 shopt -s expand_aliases
 
-# export QT_SELECT=4
+# Jump to folder without cd
+shopt -s autocd
 
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
+
+# Save multiline with new line
+shopt -s lithist
+
+# Save multi line command in one entry
+shopt -s cmdhist
+
+# Do not save a command twice
+export HISTCONTROL=ignoredups
+
+# Have less display colours
+# from: https://wiki.archlinux.org/index.php/Color_output_in_console#man
+export LESS_TERMCAP_mb=$'\e[1;31m'     # begin bold
+export LESS_TERMCAP_md=$'\e[1;33m'     # begin blink
+export LESS_TERMCAP_so=$'\e[01;44;37m' # begin reverse video
+export LESS_TERMCAP_us=$'\e[01;37m'    # begin underline
+export LESS_TERMCAP_me=$'\e[0m'        # reset bold/blink
+export LESS_TERMCAP_se=$'\e[0m'        # reset reverse video
+export LESS_TERMCAP_ue=$'\e[0m'        # reset underline
+
 
 #
 # # ex - archive extractor
@@ -144,9 +173,4 @@ ex ()
   fi
 }
 
-# better yaourt colors
-export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
-
-if [[ ! ${DISPLAY} && ${XDG_VTNR} == 1 ]]; then
-	exec startx
-fi
+export PATH=$PATH:/home/mogwai/.bin/

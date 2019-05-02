@@ -1,3 +1,4 @@
+Xcursor.theme: Hacked-aio-righty
 Xcursor.size: 17
 URxvt*background: #000000
 URxvt*foreground: #e2e2e5
@@ -45,10 +46,10 @@ URxvt*scrollTtyKeypress: true
 !URxvt.bolditalicFont: xft:FreeMono:style=Oblique:pixelsize=15:antialias=true:bold:italic:autohint=true:hinting=true
 
 URxvt*cursorBlink:                true
-URxvt.font:           xft:DejaVu\ Sans\ Mono:pixelsize=15:antialias=true:hinting=true
-URxvt.boldFont:       xft:DejaVu\ Sans\ Mono:pixelsize=15:antialias=true:bold:hinting=true
-URxvt.italicFont:     xft:DejaVu\ Sans\ Mono:pixelsize=15:antialias=true:italic:autohint=true:hinting=true
-URxvt.bolditalicFont: xft:DejaVu\ Sans\ Mono:pixelsize=15:antialias=true:bold:italic:autohint=true:hinting=true
+URxvt.font:           xft:DejaVu\ Sans\ Mono:pixelsize=14:antialias=true:hinting=true
+URxvt.boldFont:       xft:DejaVu\ Sans\ Mono:pixelsize=14:antialias=true:bold:hinting=true
+URxvt.italicFont:     xft:DejaVu\ Sans\ Mono:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+URxvt.bolditalicFont: xft:DejaVu\ Sans\ Mono:pixelsize=14:antialias=true:bold:italic:autohint=true:hinting=true
 
 URxvt.urgentOnBell: True
 

@@ -13,7 +13,7 @@
 bindsym Mod1+Control+l exec --no-startup-id xautolock -locknow 
 
 # set background 
-exec --no-startup-id feh --bg-max Pictures/bg-pillars.jpg
+exec --no-startup-id feh --bg-max Pictures/nuke.jpg
 
 # set mod keys
 set $mod Mod4
@@ -39,9 +39,17 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# Drop Down urxvt
+bindsym Control+F9 exec --no-startup-id urxvt  -name metask -depth 32 -bg rgba:0000/0000/0000/AAAA 
+exec --no-startup-id urxvt  -name metask -depth 32 -bg rgba:0000/0000/0000/8888
+for_window [instance="metask"] floating enable;
+for_window [instance="metask"] move scratchpad; [instance="metask"] scratchpad show; move position 0px 22px; resize grow width 1273 px; move scratchpad
+bindsym F12 [instance="metask"] scratchpad show
+
+
 # kill focused window
 bindsym $mod+Shift+q kill
-
+ 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
